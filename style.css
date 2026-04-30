@@ -67,7 +67,7 @@ body {
 .main-container {
 	width: 960px;
 	margin: 10px auto 20px;
-	border: 2px solid snow;
+	/*border: 2px solid snow;*/
 	box-sizing: border-box;
 }
 
@@ -111,6 +111,15 @@ a {
 .list-menu {
 	float: left;
 	padding-right: 15px;
+}
+
+.hero {
+	border-top: 3px solid orange;
+	border-bottom: 3px solid #38bdf8;
+}
+
+.hero img {
+	width: 100%;
 }
 
 
