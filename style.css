@@ -208,6 +208,19 @@ article .title-article p a {
     -moz-osx-font-smoothing: grayscale;
 }
 
+footer {
+	background-color: #020617;
+	width: 100%;
+	height: 50px;
+}
+
+footer p {
+	text-align: center;
+	color: orange;
+	font-family: 'Inter', sans-serif;
+	padding-top: 20px;
+}
+
 /**
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
