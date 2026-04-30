@@ -130,7 +130,7 @@ main {
 }
 
 article {
-	max-width: 600px;
+	width: 600px;
     padding: 20px;
     float: left;
 }
@@ -146,6 +146,11 @@ article .title-article h3 {
 
 article .title-article p {
 	color: #1e293b;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+    
+    /* Optimalisasi agar teks terlihat lebih tajam di layar */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 article .title-article p a {
@@ -156,6 +161,51 @@ article .title-article p a {
 	margin-top: 10px;
 	text-align: justify;
 	text-indent: 30px;
+}
+
+.content-article p {
+	font-family: 'Plus Jakarta Sans', sans-serif;
+    
+    /* Optimalisasi agar teks terlihat lebih tajam di layar */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.about {
+	float: right;
+	width: 300px;
+	height: 100px;
+	padding-top: 20px;
+	padding-right: 10px;
+	
+
+}
+
+.about h2 {
+	color: orange;
+	font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    letter-spacing: -0.02em; /* Sedikit dirapatkan agar lebih elegan */
+    line-height: 1.2;
+    font-size: 15px;
+}
+
+.about-author {
+	padding-top: 10px;
+}
+
+.about-author img {
+	padding-right: 10px;
+	width: 100px;
+	float: left;
+}
+
+.about-author p {
+	text-align: justify;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+    
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 /**
