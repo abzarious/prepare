@@ -122,6 +122,40 @@ a {
 	width: 100%;
 }
 
+main {
+	width: 100%;
+	background-color: #ffffff; /* Area konten tetap putih bersih */
+    color: #1e293b; /* Teks konten tetap gelap agar mudah dibaca */
 
+}
+
+article {
+	max-width: 600px;
+    padding: 20px;
+    /*float: left;*/
+}
+
+article .title-article h3 {
+	color: #38bdf8;
+	font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    letter-spacing: -0.02em; /* Sedikit dirapatkan agar lebih elegan */
+    line-height: 1.2;
+    font-size: 20px;
+}
+
+article .title-article p {
+	color: #1e293b;
+}
+
+article .title-article p a {
+	color: orange;
+}
+
+.content-article {
+	margin-top: 10px;
+	text-align: justify;
+	text-indent: 30px;
+}
 
 
